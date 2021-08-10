@@ -1,6 +1,6 @@
-module "logsink" {
+module "logsink2" {
     source                 = "../terraform/modules/terraform-gcp-log-sink"
-    name                   = "logsink"
+    name                   = "logsink2"
     scope                  = "project" or "organization"
     project                = `<your project id>`
     organization           = `<your organization id>`
