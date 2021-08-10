@@ -1,6 +1,6 @@
-module "logsy" {
+module "lnogsyn" {
     source                 = "../terraform/modules/terraform-gcp-log-sink"
-    name                   = "logsy"
+    name                   = "lnogsyn"
     scope                  = "project" or "organization"
     project                = `<your project id>`
     organization           = `<your organization id>`
